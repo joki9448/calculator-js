@@ -36,3 +36,11 @@ button {
     border-radius: 25px;
     margin: 4px;
 }
+button:hover {
+    cursor: pointer;
+    background-color: rgb(111, 110, 110);
+}
+button:active {
+    background-color: rgb(232, 232, 232);
+}
+
