@@ -12,6 +12,14 @@ body {
     border-radius: 10px;
 }
 
+.screen {
+    width: 224px;
+    background-color: rgb(176, 205, 176);
+    font-size: 40px;
+    text-align: end;
+    padding: 4px;
+}
+
 .buttons {
     width: 232px;
 }
