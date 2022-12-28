@@ -1,11 +1,12 @@
 const buttons = document.querySelectorAll('button');
+// console.log('buttons: ', buttons)
 const screenDisplay = document.querySelector('.screen');
 
 let calculation = [];
 let accumulativeCalculation;
 
-function calculate(button) {
-    const value = button.textContent
+function calculate(btn) {
+    const value = btn.textContent
 
     calculation.push(value)
     accumulativeCalculation = calculation.join('');
